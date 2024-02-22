@@ -53,3 +53,21 @@
 }
 /* END BUTTON */
 
+/* Navbar */
+.hc-navbar {
+    height: 64px;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+
+.hc-navbar-menuItem:hover {
+    transition: transform .3s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* End Navbar */
+
