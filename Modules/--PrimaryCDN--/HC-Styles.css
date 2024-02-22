@@ -10,13 +10,13 @@
 }
 
 /* FONT-SIZE */
-.hc-fs-titile1 {
+.hc-fs-title1 {
     font-size: var(--fs-title1);
 }
-.hc-fs-titile2 {
+.hc-fs-title1 {
     font-size: var(--fs-title2);
 }
-.hc-fs-titile3 {
+.hc-fs-title1 {
     font-size: var(--fs-title3);
 }
 .hc-fs-paragraph {
