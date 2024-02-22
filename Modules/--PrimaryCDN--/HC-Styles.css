@@ -1,12 +1,15 @@
 /* CONFIGS */
 :root{
+    /* FONT-SIZE */
     --fs-title1: 56px;
     --fs-title2: 40px;
     --fs-title3: 36px;
     --fs-paragraph: 20px;
     --fs-btn: 18px;
+    /* END FONT-SIZE */
 }
 
+/* FONT-SIZE */
 .hc-fs-titile1 {
     font-size: var(--fs-title1);
 }
@@ -22,6 +25,8 @@
 .hc-fs-btn {
     font-size: var(--fs-btn);
 }
+/* END FONT-SIZE */
+
 /* END CONFIGS */
 
 /* BUTTON */

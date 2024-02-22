@@ -23,26 +23,6 @@ body, html {
 }
 /* End Navbar */
 
-/* Navbar-Buttons-Styles */
-.hc-outlineBtn:hover {
-    background-color: #e5e5e5!important;
-}
-
-.hc-btn:hover{
-    background-color: #1b1b1b!important;
-}
-
-.hc-outlineBtn:active {
-    background-color: black !important;
-    color: white !important;
-}
-
-.hc-btn:active{
-    background-color: white !important;
-    color: black !important;
-}
-/* End-Navbar-Buttons-Styles */
-
 /* Navbar-Menu-Items-Styles */
 .hc-navbar-menuItem:hover {
     transition: transform .3s;
