@@ -6,6 +6,10 @@
     --fs-title3: 36px;
     --fs-paragraph1: 24px;
     --fs-paragraph2: 20px;
+    --fs-paragraph3: 18px;
+    --fs-span1: 16px;
+    --fs-span2: 14px;
+    --fs-span3: 12px;
     --fs-btn: 18px;
     /* END FONT-SIZE */
 }
@@ -29,6 +33,22 @@
 
 .hc-fs-paragraph2 {
     font-size: var(--fs-paragraph2) !important;
+}
+
+.hc-fs-paragraph3 {
+    font-size: var(--fs-paragraph3) !important;
+}
+
+.hc-fs-span1 {
+    font-size: var(--fs-span1) !important;
+}
+
+.hc-fs-span2 {
+    font-size: var(--fs-span2) !important;
+}
+
+.hc-fs-span3 {
+    font-size: var(--fs-span3) !important;
 }
 
 .hc-fs-btn {
@@ -123,33 +143,54 @@
         font-size: calc(.5rem + 1vw) !important;
     }
 
+    .hc-fs-paragraph3 {
+        font-size: calc(.5rem + 1vw) !important;
+    }
+
+    .hc-fs-span1 {
+        font-size: calc(.3rem + .9vw) !important;
+    }
+
+    .hc-fs-span2 {
+        font-size: calc(.3rem + .8vw) !important;
+    }
+
+    .hc-fs-span3 {
+        font-size: calc(.3rem + .7vw) !important;
+    }
+
     .hc-fs-btn {
         font-size: calc(.6rem + 1.1vw) !important;
     }
+
     /* END FONT-SIZE */
 }
 
 @media screen and (max-width: 992px) {
+
     /* NAVBAR */
-    .hc-navbar #menu , .hc-navbar #secondMenu {
-       display: none !important;
-   }
+    .hc-navbar #menu, .hc-navbar #secondMenu {
+        display: none !important;
+    }
 
-   .hc-navbar #btnHamburger {
-       display: inline !important;
-   }
+    .hc-navbar #btnHamburger {
+        display: inline !important;
+    }
 
-   .hc-navbar #logo {
-       justify-content: start !important;
-   }
-   /* END NAVBAR */
+    .hc-navbar #logo {
+        justify-content: start !important;
+    }
+
+    /* END NAVBAR */
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+
     /* HERO */
     .hc-hero-body {
         flex-direction: column;
     }
+
     /* END HERO */
 }
 
