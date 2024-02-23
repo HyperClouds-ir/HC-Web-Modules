@@ -11,7 +11,7 @@ body, html {
 }
 /* end trash */
 
-/* Hero */
+/* Social Proof */
 .hc-socialProof {
     width: 100%;
     height: 266px;
@@ -19,7 +19,7 @@ body, html {
     border-radius: 15px;
     padding: 20px;
 }
-/* End Hero */
+/* End Social Proof */
 
 /* Responsive Options */
 @media screen and (max-width: 768px){
