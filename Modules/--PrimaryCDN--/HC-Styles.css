@@ -115,7 +115,11 @@
         font-size: calc(1.175rem + 1.3vw) !important;
     }
 
-    .hc-fs-paragraph {
+    .hc-fs-paragraph1 {
+        font-size: calc(.6rem + 1.1vw) !important;
+    }
+
+    .hc-fs-paragraph2 {
         font-size: calc(.5rem + 1vw) !important;
     }
 
