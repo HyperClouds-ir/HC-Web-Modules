@@ -4,7 +4,8 @@
     --fs-title1: 56px;
     --fs-title2: 40px;
     --fs-title3: 36px;
-    --fs-paragraph: 20px;
+    --fs-paragraph1: 24px;
+    --fs-paragraph2: 20px;
     --fs-btn: 18px;
     /* END FONT-SIZE */
 }
@@ -22,8 +23,12 @@
     font-size: var(--fs-title3) !important;
 }
 
-.hc-fs-paragraph {
-    font-size: var(--fs-paragraph) !important;
+.hc-fs-paragraph1 {
+    font-size: var(--fs-paragraph1) !important;
+}
+
+.hc-fs-paragraph2 {
+    font-size: var(--fs-paragraph2) !important;
 }
 
 .hc-fs-btn {
