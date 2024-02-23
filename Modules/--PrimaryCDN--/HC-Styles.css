@@ -1,5 +1,5 @@
 /* CONFIGS */
-:root{
+:root {
     /* FONT-SIZE */
     --fs-title1: 56px;
     --fs-title2: 40px;
@@ -13,18 +13,23 @@
 .hc-fs-title1 {
     font-size: var(--fs-title1) !important;
 }
+
 .hc-fs-title2 {
     font-size: var(--fs-title2) !important;
 }
+
 .hc-fs-title3 {
     font-size: var(--fs-title3) !important;
 }
+
 .hc-fs-paragraph {
     font-size: var(--fs-paragraph) !important;
 }
+
 .hc-fs-btn {
     font-size: var(--fs-btn) !important;
 }
+
 /* END FONT-SIZE */
 
 /* END CONFIGS */
@@ -35,11 +40,11 @@
 }
 
 .hc-outlineBtn:hover {
-    background-color: #e5e5e5!important;
+    background-color: #e5e5e5 !important;
 }
 
-.hc-btn:hover{
-    background-color: #1b1b1b!important;
+.hc-btn:hover {
+    background-color: #1b1b1b !important;
 }
 
 .hc-outlineBtn:active {
@@ -47,10 +52,11 @@
     color: white !important;
 }
 
-.hc-btn:active{
+.hc-btn:active {
     background-color: white !important;
     color: black !important;
 }
+
 /* END BUTTON */
 
 /* NAVBAR */
@@ -69,6 +75,7 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
 /* End NAVBAR */
 
 /* HERO */
@@ -84,31 +91,57 @@
     left: 0;
     z-index: 0;
 }
+
 /* END HERO */
 
 /* Responsive Options */
-@media screen and (max-width: 1200px){
-/* FONT-SIZE */
-.hc-fs-title1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+@media screen and (max-width: 1200px) {
+
+    /* FONT-SIZE */
+    .hc-fs-title1 {
+        font-size: calc(1.375rem + 1.5vw) !important;
+    }
+
+    .hc-fs-title2 {
+        font-size: calc(1.275rem + 1.4vw) !important;
+    }
+
+    .hc-fs-title3 {
+        font-size: calc(1.175rem + 1.3vw) !important;
+    }
+
+    .hc-fs-paragraph {
+        font-size: calc(.5rem + 1vw) !important;
+    }
+
+    .hc-fs-btn {
+        font-size: calc(.6rem + 1.1vw) !important;
+    }
+    /* END FONT-SIZE */
 }
 
-.hc-fs-title2 {
-    font-size: calc(1.275rem + 1.4vw) !important;
+@media screen and (max-width: 992px) {
+    /* NAVBAR */
+    .hc-navbar #menu , .hc-navbar #secondMenu {
+       display: none !important;
+   }
+
+   .hc-navbar #btnHamburger {
+       display: inline !important;
+   }
+
+   .hc-navbar #logo {
+       justify-content: start !important;
+   }
+   /* END NAVBAR */
 }
 
-.hc-fs-title3 {
-    font-size: calc(1.175rem + 1.3vw) !important;
+@media screen and (max-width: 768px){
+    /* HERO */
+    .hc-hero-body {
+        flex-direction: column;
+    }
+    /* END HERO */
 }
 
-.hc-fs-paragraph {
-    font-size: calc(.5rem + 1vw) !important;
-}
-
-.hc-fs-btn {
-    font-size: calc(.6rem + 1.1vw) !important;
-}
-/* END FONT-SIZE */
-}
 /* End Responsive Options */
-
