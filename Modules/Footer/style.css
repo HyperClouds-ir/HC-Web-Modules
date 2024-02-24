@@ -23,7 +23,9 @@ body, html {
 
 /* Responsive Options */
 @media screen and (max-width: 768px){
-
+    .hc-footer{
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 576px){
