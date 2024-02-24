@@ -26,9 +26,18 @@ body, html {
     .hc-footer{
         height: 100%;
     }
+
+#footer-menuBox-desktop {
+    display: none !important;
+}
+#footer-menuBox-mobile {
+    display: flex !important;
+}
 }
 
 @media screen and (max-width: 576px){
-
+    #footer-imagesBox {
+        width: 75%;
+    }
 }
 /* End Responsive Options */
