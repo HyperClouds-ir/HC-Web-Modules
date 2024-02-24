@@ -9,4 +9,22 @@ body, html {
     background-color: white;
     height: 100%;
 }
+
 /* end trash */
+
+
+/* [YOUR SECTION] */
+
+/* End [YOUR SECTION] */
+
+
+/* Responsive Options */
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
+
+/* End Responsive Options */
