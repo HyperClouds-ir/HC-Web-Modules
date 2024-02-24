@@ -14,6 +14,16 @@
     /* END FONT-SIZE */
 }
 
+/* GENERAL */
+
+.hc-menuItem:hover {
+    transition: transform .3s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* END GENERAL */
+
 /* FONT-SIZE */
 .hc-fs-title1 {
     font-size: var(--fs-title1) !important;
@@ -93,12 +103,6 @@
     display: flex;
     align-items: center;
     padding: 0 40px 0 40px;
-}
-
-.hc-navbar-menuItem:hover {
-    transition: transform .3s;
-    cursor: pointer;
-    transform: scale(1.1);
 }
 
 /* End NAVBAR */
