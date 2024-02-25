@@ -70,24 +70,28 @@
 /* END CONFIGS */
 
 /* BUTTON */
-.hc-btn, .hcoutlineBtn {
+.hc-btn, .hc-btn-lg, .hc-outlineBtn, .hc-outlineBtn-lg {
     padding: 8px 48px;
 }
 
-.hc-outlineBtn:hover {
+.hc-outlineBtn-lg, .hc-btn-lg {
+    height : 60px;
+}
+
+.hc-outlineBtn:hover, .hc-outlineBtn-lg:hover {
     background-color: #e5e5e5 !important;
 }
 
-.hc-btn:hover {
+.hc-btn:hover, .hc-btn-lg:hover {
     background-color: #1b1b1b !important;
 }
 
-.hc-outlineBtn:active {
+.hc-outlineBtn:active, .hc-outlineBtn-lg:active {
     background-color: black !important;
     color: white !important;
 }
 
-.hc-btn:active {
+.hc-btn:active, .hc-btn-lg:active {
     background-color: white !important;
     color: black !important;
 }
