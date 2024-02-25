@@ -9,6 +9,7 @@ body, html {
     background-color: white;
     height: 100%;
 }
+
 /* end trash */
 
 /* Footer */
@@ -19,25 +20,28 @@ body, html {
     border-radius: 15px;
     padding: 20px;
 }
+
 /* End Footer */
 
 /* Responsive Options */
-@media screen and (max-width: 768px){
-    .hc-footer{
+@media screen and (max-width: 768px) {
+    .hc-footer {
         height: 100%;
     }
 
-#footer-menuBox-desktop {
-    display: none !important;
-}
-#footer-menuBox-mobile {
-    display: flex !important;
-}
+    #footer-menuBox-desktop {
+        display: none !important;
+    }
+
+    #footer-menuBox-mobile {
+        display: flex !important;
+    }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
     #footer-imagesBox {
         width: 75%;
     }
 }
+
 /* End Responsive Options */
