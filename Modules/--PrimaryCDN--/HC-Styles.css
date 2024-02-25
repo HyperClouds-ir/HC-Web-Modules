@@ -137,6 +137,14 @@
 /* Responsive Options */
 @media screen and (max-width: 1200px) {
 
+    .hc-lg-flex {
+        display: flex !important;
+    }
+
+    .hc-lg-none {
+        display: none !important;
+    }
+
     /* FONT-SIZE */
     .hc-fs-title1 {
         font-size: calc(1.375rem + 1.5vw) !important;
@@ -183,6 +191,14 @@
 
 @media screen and (max-width: 992px) {
 
+    .hc-md-flex {
+        display: flex !important;
+    }
+
+    .hc-md-none {
+        display: none !important;
+    }
+
     /* NAVBAR */
     .hc-navbar #menu, .hc-navbar #secondMenu {
         display: none !important;
@@ -201,6 +217,14 @@
 
 @media screen and (max-width: 768px) {
 
+    .hc-sm-flex {
+        display: flex !important;
+    }
+
+    .hc-sm-none {
+        display: none !important;
+    }
+
     /* HERO */
     .hc-hero-body {
         flex-direction: column;
@@ -218,6 +242,13 @@
 }
 
 @media screen and (max-width: 576px) {
+
+    .hc-xs-flex {
+        display: flex !important;
+    }
+    .hc-xs-none {
+        display: none !important;
+    }
 
     /* Social Proof */
     .hc-socialProof {
