@@ -212,6 +212,12 @@
     }
 
     /* END NAVBAR */
+
+    /* BUTTONS */
+    .hc-outlineBtn-lg {
+        height: 41px;
+    }
+    /* END BUTTONS */
 }
 
 @media screen and (max-width: 768px) {
