@@ -157,6 +157,7 @@
     border-radius: 15px;
     padding: 20px;
 }
+
 /* End Feature */
 
 /* Responsive Options */
@@ -227,7 +228,16 @@
     .hc-outlineBtn-lg {
         height: 41px;
     }
+
     /* END BUTTONS */
+
+    /* FEATURE */
+    .hc-feature {
+        height: 100%;
+    }
+
+    /* END FEATURE */
+
 }
 
 @media screen and (max-width: 768px) {
