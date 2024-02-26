@@ -13,7 +13,7 @@ body, html {
 /* end trash */
 
 
-/* [YOUR SECTION] */
+/* Feature */
 .hc-feature {
     width: 100%;
     height: 600px;
@@ -21,7 +21,7 @@ body, html {
     border-radius: 15px;
     padding: 20px;
 }
-/* End [YOUR SECTION] */
+/* End Feature */
 
 
 /* Responsive Options */
