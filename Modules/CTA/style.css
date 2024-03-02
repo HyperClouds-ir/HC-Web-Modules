@@ -1,0 +1,30 @@
+/* trash */
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #e5e5e5;
+}
+
+.container {
+    background-color: white;
+    height: 100%;
+}
+
+/* end trash */
+
+
+/* [CTA] */
+
+/* End [CTA] */
+
+
+/* Responsive Options */
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
+
+/* End Responsive Options */
